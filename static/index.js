@@ -465,10 +465,10 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '屑绵羊，你给我等着！';
-        if (cps <= 8) return '绝交吧绵羊';
-        if (cps <= 10)  return '啊要炸了';
-        if (cps <= 15) return '啊啊啊啊啊';
+        if (score <= 3) return '屑绵羊，你给我等着！';
+        if (score <= 4) return '绝交吧绵羊';
+        if (score <= 5)  return '啊要炸了';
+        if (score <= 6) return '啊啊啊啊啊';
         return '哼，哼，哼，啊啊啊啊！！';
     }
 
