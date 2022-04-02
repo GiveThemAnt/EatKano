@@ -465,10 +465,10 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (score <= 3) return '屑绵羊，你给我等着！';
-        if (score <= 4) return '绝交吧绵羊';
-        if (score <= 5)  return '啊要炸了';
-        if (score <= 6) return '啊啊啊啊啊';
+        if (score <= 80) return '屑绵羊，你给我等着！';
+        if (score <= 100) return '绝交吧绵羊';
+        if (score <= 110)  return '啊要炸了';
+        if (score <= 150) return '屑绵羊，看到我手上就有动力是吧';
         return '哼，哼，哼，啊啊啊啊！！';
     }
 
